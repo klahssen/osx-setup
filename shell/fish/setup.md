@@ -3,6 +3,14 @@
 ## install the shell
 download the installer from https://fishshell.com
 
+docs:
+
+https://www.linode.com/docs/quick-answers/linux/how-to-install-configure-and-run-fish/
+
+
+https://fishshell.com/docs/current/faq.html
+
+
 ## oh-my-fish
 for customization
 https://github.com/oh-my-fish/oh-my-fish
