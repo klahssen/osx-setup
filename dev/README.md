@@ -1,4 +1,4 @@
 ### DEV environment
 
 - create development directories
-~/dev/$ORG]/$PROJECT_OR_REPO
+~/dev/$org/$project_or_repo
