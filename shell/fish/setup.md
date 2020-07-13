@@ -21,6 +21,9 @@ https://github.com/oh-my-fish/oh-my-fish
 - install a theme
 `omf install bobthefish`
 
+- add go/bin to PATH
+`set -U fish_user_paths ~/go/bin $fish_user_paths`
+
 - fish config file default location is ~/.config/fish
 - put the content of this directory in ~/.config/fish
 
