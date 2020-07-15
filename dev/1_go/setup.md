@@ -11,5 +11,8 @@ https://github.com/moovweb/gvm
 download and install pprof
 https://github.com/google/pprof
 
+## go env
+`go env -w GOPRIVATE=gitlab.nereides.weborama.com`
+`go env -w GOPROXY=https://proxy.golang.org,direct`
 
 
