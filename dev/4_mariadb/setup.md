@@ -2,4 +2,4 @@
 
 ## INSTALL
 
-brew install mariadb
+`brew install mariadb`
