@@ -6,7 +6,7 @@ https://flutter.dev/docs/get-started/install/macos
 
 download the archive in your ~/Downloads folder.
 
-## Install
+## Install Flutter
 On a Mac tilde character "~" is `Option+n` and it is a shortcut
 for the $HOME directory.
 
@@ -31,3 +31,41 @@ for the $HOME directory.
     `which flutter`
 - check your flutter installation
     `flutter doctor`
+
+
+## Platform setup
+
+https://flutter.dev/docs/get-started/install/macos#platform-setup
+
+## Install XCode on Mac
+
+https://developer.apple.com/download/
+
+## Install Android Studio
+
+- download android studio
+https://developer.android.com/studio/index.html
+
+- flutter android setup
+https://flutter.dev/docs/get-started/install/macos#android-setup
+
+- accept android licenses:
+`flutter doctor --android-licenses`
+
+- install flutter/dart plugins for android studio
+Android Studio > preferences > Plugins: Select Flutter in the list
+install then restart Android Studio.
+
+- Virtual Device
+Android Studio > Tools > Android > AVD Manager and select Create Virtual Device…
+
+- flutter looks for the plugins in the wrong folder since the update, need a symlink to let it find the plugins
+`ln -s ~/Library/Application\ Support/Google/AndroidStudio4.1/plugins ~/Library/Application\ Support/AndroidStudio4.1`
+
+## Setup VSCode for Flutter
+
+Flutter Plugin:
+https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+
+
+
